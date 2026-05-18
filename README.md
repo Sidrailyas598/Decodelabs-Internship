@@ -68,7 +68,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 1. Top 5 Products by Quantity Sold
 
-![Top Products by Quantity](visualizations/top_products_qty.png)
 
 **Insight:** Chair is the best-selling product with **562 units sold**, followed by Monitor (531) and Phone (523).
 
@@ -76,7 +75,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 2. Top 5 Products by Revenue
 
-![Top Products by Revenue](visualizations/top_products_revenue.png)
 
 **Insight:** Chair generates the highest revenue (approx. Rs. 2,05,000), despite similar sales volume to other products — indicating higher average unit price.
 
@@ -84,7 +82,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 3. Order Status Distribution
 
-![Order Status](visualizations/order_status.png)
 
 **Insight:** All statuses are nearly evenly distributed (~20% each). Cancelled orders (250) are slightly higher, indicating room for improvement.
 
@@ -100,7 +97,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 4. Payment Methods
 
-![Payment Methods](visualizations/payment_methods.png)
 
 **Insight:** Online payment is the most popular method (~210 orders), followed by Credit Card and Debit Card.
 
@@ -108,7 +104,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 5. Orders by Year
 
-![Orders by Year](visualizations/orders_by_year.png)
 
 **Insight:** Year **2023** recorded the highest orders (510). Decline in 2025 is expected as data covers only first half.
 
@@ -122,7 +117,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 6. Referral Sources
 
-![Referral Sources](visualizations/referral_sources.png)
 
 **Insight:** **Instagram** is the top acquisition channel (~260 orders). Instagram + Facebook together contribute ~43% of all orders.
 
@@ -130,7 +124,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 7. Outlier Detection (TotalPrice)
 
-![Outliers](visualizations/outliers.png)
 
 **Insight:** **8 outlier orders** detected above Rs. 3,330.42, requiring manual review for fraud or data errors.
 
@@ -146,7 +139,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 
 ### 8. Correlation Analysis
 
-![Correlation Matrix](visualizations/correlation.png)
 
 **Insight:** Strong positive correlation between **Quantity and TotalPrice (r = 0.85)** — as quantity increases, total price increases significantly.
 
@@ -197,24 +189,6 @@ The goal is to perform **Exploratory Data Analysis (EDA)** on a cleaned e-commer
 | **Seaborn** | Statistical visualizations |
 | **Jupyter Notebook** | Interactive development |
 
----
-## 📁 Repository Structure
-EDA-Project-2/
-│
-├── EDA_Project_2.ipynb # Complete Jupyter notebook
-├── Cleaned_Dataset.xlsx # Input dataset
-├── visualizations/ # All generated charts
-│ ├── top_products_qty.png
-│ ├── top_products_revenue.png
-│ ├── order_status.png
-│ ├── payment_methods.png
-│ ├── orders_by_year.png
-│ ├── referral_sources.png
-│ ├── outliers.png
-│ ├── correlation.png
-│ └── top_coupons.png
-├── EDA_Report_Project_2.pdf # Final report
-└── README.md # This file
 ---
 
 ## 🚀 How to Run
